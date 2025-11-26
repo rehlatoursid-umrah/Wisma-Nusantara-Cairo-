@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react"
 import Link from "next/link"
+import Image from "next/image" // Import Image component
 import { usePathname } from "next/navigation"
 import { Menu, X } from "lucide-react"
 import { motion, AnimatePresence } from "framer-motion"
@@ -43,9 +44,18 @@ export default function Header() {
           <Link href="/" className="flex items-center gap-3 group">
             <motion.div
               whileHover={{ scale: 1.05, rotate: 5 }}
-              className="w-12 h-12 rounded-full bg-gradient-to-br from-primary to-primary/80 flex items-center justify-center shadow-lg"
+              // Hapus background dan styling placeholder lama
+              className="relative w-12 h-12 flex items-center justify-center"
             >
-              <span className="text-primary-foreground font-bold text-lg">WN</span>
+              {/* Gunakan komponen Image */}
+              {/* Ganti '/logo.png' dengan nama file logo Anda di folder public */}
+              <Image 
+                src="/logo.png" 
+                alt="Logo Wisma Nusantara"
+                fill
+                className="object-contain" // Agar logo pas dan tidak terpotong
+                priority // Logo dimuat duluan agar tidak kedip (layout shift)
+              />
             </motion.div>
             <div className="hidden sm:block">
               <h1 className="font-serif text-lg font-bold text-secondary group-hover:text-secondary/80 transition-colors">
