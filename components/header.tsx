@@ -50,7 +50,7 @@ export default function Header() {
               {/* Gunakan komponen Image */}
               {/* Ganti '/logo.png' dengan nama file logo Anda di folder public */}
               <Image 
-                src="/LOGO wisnu siluet.png" 
+                src="/Group 11 (1).png" 
                 alt="Logo Wisma Nusantara"
                 fill
                 className="object-contain" // Agar logo pas dan tidak terpotong
