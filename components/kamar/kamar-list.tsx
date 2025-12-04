@@ -39,10 +39,10 @@ const rooms = [
     price: 105,
     image: "/large-family-hotel-room-multiple-beds-spacious.jpg",
     capacity: 8,
-    bedType: "2 Double Room + 1 Quadrupple Room + 1 Toilet + Kitchen + Living Room",
+    bedType: "2 Double Room + 1 Quadrupple Room",
     size: "Air Panas",
     available: 1,
-    amenities: ["AC/Heat", "Kamar Mandi Sharing", "Wi-Fi Gratis","Lemari Es", "Handuk & Toiletries",]
+    amenities: ["AC/Heat", "Kamar Mandi Sharing", "Wi-Fi Gratis","Lemari Es", "Handuk & Toiletries", "Kitchen", "Living Room",]
   },
 ]
 
