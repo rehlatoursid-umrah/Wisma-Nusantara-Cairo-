@@ -8,14 +8,14 @@ const rooms = [
     price: 30,
     available: 4,
     image: "/103.jpg",
-    features: ["AC/Heat", "Kamar Mandi Dalam", "Wi-Fi Gratis","Lemari Es", "Handuk & Toiletries", "Meja Kerja/Rias"],
+    features: ["AC/Heat", "Kamar Mandi Dalam", "Wi-Fi Gratis","Lemari Es", "Handuk & Toiletries", "Meja Kerja/Rias"]
   },
   {
     name: "Double Bed Room+",
     price: 35,
     available: 5,
     image: "/106-A.jpg",
-    features: ["AC/Heat", "Kamar Mandi Dalam", "Wi-Fi Gratis","Lemari Es", "Handuk & Toiletries", "Meja Kerja/Rias",],
+    features: ["AC/Heat", "Kamar Mandi Dalam", "Wi-Fi Gratis","Lemari Es", "Handuk & Toiletries", "Meja Kerja/Rias",]
   },
 ]
 
