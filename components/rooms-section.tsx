@@ -1,4 +1,4 @@
-import { Bed, Wifi, Bath, Snowflake } from "lucide-react"
+import { Bed, Wifi, Bath, Snowflake, Check, Monitor } from "lucide-react" // Tambahkan Check & Monitor
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardFooter, CardHeader } from "@/components/ui/card"
 
@@ -19,7 +19,15 @@ const rooms = [
   },
 ]
 
-const featureIcons = [Bed, Snowflake, Wifi, Bath]
+// Mapping icon manual agar sesuai urutan fitur, atau gunakan logic switch case jika ingin lebih rapi
+// Urutan fitur di array: 
+// 0: AC -> Snowflake
+// 1: Mandi -> Bath
+// 2: Wifi -> Wifi
+// 3: Kulkas -> Snowflake (atau ikon lain)
+// 4: Handuk -> Check (general)
+// 5: Meja -> Monitor/Check
+const featureIcons = [Snowflake, Bath, Wifi, Snowflake, Check, Monitor] 
 
 export default function RoomsSection() {
   return (
@@ -34,7 +42,8 @@ export default function RoomsSection() {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-          {rooms.map((room) => (
+          {/* Tambahkan '?' setelah rooms untuk mencegah error jika data kosong */}
+          {rooms?.map((room) => (
             <Card key={room.name} className="overflow-hidden border-border hover:border-primary/50 transition-colors">
               <div className="aspect-video relative overflow-hidden">
                 <img
@@ -58,7 +67,9 @@ export default function RoomsSection() {
               <CardContent>
                 <ul className="space-y-2">
                   {room.features.map((feature, index) => {
-                    const Icon = featureIcons[index]
+                    // Logic perbaikan: Ambil icon berdasarkan index, jika habis gunakan 'Check'
+                    const Icon = featureIcons[index] || Check 
+                    
                     return (
                       <li key={index} className="flex items-center gap-2 text-muted-foreground">
                         <Icon className="w-4 h-4 text-primary" />
