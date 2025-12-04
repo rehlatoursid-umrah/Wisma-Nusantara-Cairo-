@@ -14,7 +14,7 @@ const rooms = [
     name: "Double Bed Room+",
     price: 35,
     available: 5,
-    image: "/spacious-double-hotel-room-elegant-indonesian-styl.jpg",
+    image: "/106-A.jpg",
     features: ["AC/Heat", "Kamar Mandi Dalam", "Wi-Fi Gratis","Lemari Es", "Handuk & Toiletries", "Meja Kerja/Rias",],
   },
 ]
