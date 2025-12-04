@@ -24,7 +24,7 @@ const rooms = [
     name: "Double Bed Room",
     description: "Kamar luas untuk pasangan atau keluarga kecil dengan kasur double.",
     price: 35,
-    image: "/spacious-double-hotel-room-elegant-indonesian-deco.jpg",
+    image: "/106-A.jpg",
     capacity: 2,
     bedType: "Twin Size Double Bed",
     size: "Air Panas",
@@ -37,13 +37,13 @@ const rooms = [
     id: 3,
     name: "Family Homestay Room",
     description: "Kamar besar untuk keluarga dengan fasilitas tambahan.",
-    price: 110,
+    price: 105,
     image: "/large-family-hotel-room-multiple-beds-spacious.jpg",
     capacity: 8,
     bedType: "2 Double Room + 1 Quadrupple Room + 1 Toilet + Kitchen + Living Room",
     size: "Air Panas",
     available: 1,
-    amenities: ["AC/Heat", "Kamar Mandi Sharing", "Wi-Fi Gratis","Lemari Es", "Handuk & Toiletries",]
+    amenities: ["AC/Heat", "Kamar Mandi Sharing", "Wi-Fi Gratis","Lemari Es", "Handuk & Toiletries",],
   },
 ]
 
