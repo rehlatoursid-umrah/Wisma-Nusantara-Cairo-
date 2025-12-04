@@ -4,18 +4,18 @@ import { Card, CardContent, CardFooter, CardHeader } from "@/components/ui/card"
 
 const rooms = [
   {
-    name: "Single Room",
+    name: "Single Bed Room",
     price: 30,
     available: 4,
-    image: "/cozy-single-hotel-room-warm-tones-indonesian-decor.jpg",
-    features: ["1 Tempat Tidur Single", "AC", "WiFi Gratis", "Kamar Mandi Pribadi"],
+    image: "/103.jpg",
+    features: ["AC/Heat", "Kamar Mandi Dalam", "Wi-Fi Gratis","Lemari Es", "Handuk & Toiletries", "Meja Kerja/Rias"],
   },
   {
-    name: "Double Room+",
+    name: "Double Bed Room+",
     price: 35,
     available: 5,
     image: "/spacious-double-hotel-room-elegant-indonesian-styl.jpg",
-    features: ["1 Tempat Tidur Double", "AC", "WiFi Gratis", "Kamar Mandi Pribadi"],
+    features: ["AC/Heat", "Kamar Mandi Dalam", "Wi-Fi Gratis","Lemari Es", "Handuk & Toiletries", "Meja Kerja/Rias",],
   },
 ]
 
