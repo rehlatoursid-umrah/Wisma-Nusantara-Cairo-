@@ -17,7 +17,7 @@ const rooms = [
     bedType: "King Size Single Bed",
     size: "Air Panas",
     available: 4,
-    amenities: ["AC/Heat", "Kamar Mandi Dalam", "Wi-Fi Gratis","Lemari Es", "Handuk & Toiletries", "Meja Kerja/Rias",],
+    amenities: ["AC/Heat", "Kamar Mandi Dalam", "Wi-Fi Gratis","Lemari Es", "Handuk & Toiletries", "Meja Kerja/Rias",]
   },
   {
     id: 2,
@@ -29,7 +29,7 @@ const rooms = [
     bedType: "Twin Size Double Bed",
     size: "Air Panas",
     available: 5,
-    amenities: ["AC/Heat", "Kamar Mandi Dalam", "Wi-Fi Gratis","Lemari Es", "Handuk & Toiletries", "Meja Kerja/Rias",],
+    amenities: ["AC/Heat", "Kamar Mandi Dalam", "Wi-Fi Gratis","Lemari Es", "Handuk & Toiletries", "Meja Kerja/Rias",]
   },
   {
   },
@@ -43,7 +43,7 @@ const rooms = [
     bedType: "2 Double Room + 1 Quadrupple Room + 1 Toilet + Kitchen + Living Room",
     size: "Air Panas",
     available: 1,
-    amenities: ["AC/Heat", "Kamar Mandi Sharing", "Wi-Fi Gratis","Lemari Es", "Handuk & Toiletries",],
+    amenities: ["AC/Heat", "Kamar Mandi Sharing", "Wi-Fi Gratis","Lemari Es", "Handuk & Toiletries",]
   },
 ]
 
