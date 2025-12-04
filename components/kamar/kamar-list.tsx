@@ -31,8 +31,7 @@ const rooms = [
     available: 5,
     amenities: ["AC/Heat", "Kamar Mandi Dalam", "Wi-Fi Gratis","Lemari Es", "Handuk & Toiletries", "Meja Kerja/Rias",]
   },
-  {
-  },
+  // { }, <--- INI PENYEBAB ERORNYA (SUDAH SAYA HAPUS)
   {
     id: 3,
     name: "Family Homestay Room",
@@ -62,7 +61,7 @@ export function KamarList() {
               >
                 {/* Image */}
                 <div className="lg:w-1/2 relative h-72 lg:h-auto">
-                  <Image src={room.image || "/placeholder.svg"} alt={room.name} fill className="object-cover" />
+                  <Image src={room.image || "/placeholder.svg"} alt={room.name || "Room Image"} fill className="object-cover" />
                   <div className="absolute top-4 left-4">
                     <span className="px-3 py-1 bg-primary text-primary-foreground rounded-full text-sm font-medium">
                       {room.available} tersedia
@@ -97,7 +96,8 @@ export function KamarList() {
 
                   {/* Amenities */}
                   <div className="grid grid-cols-2 gap-2 mb-6">
-                    {room.amenities.map((amenity) => (
+                    {/* SAYA TAMBAHKAN TANDA TANYA (?) DISINI UNTUK KEAMANAN */}
+                    {room.amenities?.map((amenity) => (
                       <span key={amenity} className="flex items-center gap-2 text-sm text-muted-foreground">
                         <Check className="w-4 h-4 text-primary" />
                         {amenity}
