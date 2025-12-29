@@ -12,7 +12,7 @@ export function HeroSection() {
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: `url('/luxury-hotel-lobby-with-egyptian-and-indonesian-de.jpg')`,
+            backgroundImage: `/Lobi lt 1-B.jpg')`,
           }}
         />
         <div className="absolute inset-0 bg-gradient-to-b from-accent/70 via-accent/50 to-accent/80" />
