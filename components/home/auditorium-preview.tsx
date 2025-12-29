@@ -13,7 +13,7 @@ export function AuditoriumPreview() {
       <div
         className="absolute inset-0 opacity-[0.03]"
         style={{
-          backgroundImage: `url("https://raw.githubusercontent.com/rehlatoursid-umrah/Wisma-Nusantara-Cairo-/refs/heads/main/public/aula%202.png")`,
+          backgroundImage: `url(https://raw.githubusercontent.com/rehlatoursid-umrah/Wisma-Nusantara-Cairo-/refs/heads/main/public/aula%202.png)`,
         }}
       />
 
