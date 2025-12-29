@@ -11,7 +11,7 @@ const rooms = [
   {
     name: "Single Room",
     price: 30,
-    image: "/102 c.jpg",
+    image: "/102 c.jpg.png",
     features: ["1 Kasur Single", "AC", "Kamar Mandi Dalam"],
     available: 4,
   },
