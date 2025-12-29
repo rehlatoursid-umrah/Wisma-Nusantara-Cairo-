@@ -8,18 +8,23 @@ import { SectionHeader } from "@/components/section-header"
 const team = [
   {
     name: "Muhammad Naufal Baharuddin, Lc.",
-    role: "Supervisor",
+    role: "Board of Commissioners",
     image: "/bng nofal.png",
   },
   {
-    name: "Ibu Fatimah",
-    role: "Kepala Housekeeping",
-    image: "/professional-indonesian-woman-portrait-hijab-forma.jpg",
+    name: "Usamah Abu Zaif Al Jundi, Lc.",
+    role: "Board of Commissioners",
+    image: "/bng nofal.png",
   },
   {
-    name: "Mas Rizky",
-    role: "Front Desk",
-    image: "/young-indonesian-man-portrait-friendly-smile.jpg",
+    name: "Qolbi Zuhri Ali Murtadho,Lc.",
+    role: "President Director",
+    image: "/qolbi .png",
+  },
+  {
+    name: "Obeid Albar Abdhie",
+    role: "General Secretary & Finance",
+    image: "/obet.png",
   },
 ]
 
