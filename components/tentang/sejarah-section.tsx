@@ -32,18 +32,22 @@ export function SejarahSection() {
             </h2>
             <div className="space-y-4 text-muted-foreground leading-relaxed">
               <p>
-                Wisma Nusantara didirikan sebagai respons terhadap kebutuhan komunitas Indonesia di Kairo akan tempat
-                tinggal yang nyaman, aman, dan terjangkau. Berlokasi strategis di kawasan Dokki, hotel ini telah menjadi
-                rumah kedua bagi ribuan mahasiswa, peziarah, dan diplomat Indonesia.
+                Wisma Nusantara Cairo didirikan pada tahun 1997 sebagai respons atas kebutuhan komunitas Indonesia 
+                di Kairo akan akomodasi yang nyaman, aman, terjangkau, dan layanan yang terpercaya. Berbekal pengalaman 
+                panjang di bidang perhotelan, kami terus menjaga kualitas layanan dengan standar yang baik serta pendekatan 
+                yang mengutamakan kenyamanan tamu.
               </p>
               <p>
-                Dengan nuansa Indonesia yang kental, Wisma Nusantara bukan hanya tempat menginap, tetapi juga pusat
-                kegiatan komunitas. Dari pertemuan mahasiswa hingga acara keagamaan, dari seminar hingga pernikahan,
-                auditorium kami telah menjadi saksi berbagai momen berharga diaspora Nusantara.
+                Berlokasi strategis di kawasan Rabea eladawea, Wisma Nusantara telah menjadi rumah kedua bagi ribuan mahasiswa, 
+                peziarah, diplomat, dan tamu Indonesia lainnya yang datang ke Mesir. Dengan nuansa Indonesia yang kental, 
+                kami menghadirkan suasana akrab yang membuat setiap tamu merasa lebih dekat dengan rumah, sekaligus 
+                mendapatkan layanan yang profesional dan konsisten.
               </p>
               <p>
-                Kami berkomitmen untuk terus memberikan pelayanan terbaik dengan keramahan khas Indonesia, menjadikan
-                setiap tamu merasa seperti di rumah sendiri.
+                Lebih dari sekadar tempat menginap, Wisma Nusantara juga berkembang sebagai pusat aktivitas komunitas dan event 
+                management bagi diaspora Nusantara di Kairo. Auditorium dan fasilitas kami telah menjadi ruang bagi berbagai kegiatan—mulai 
+                dari pertemuan, seminar, acara keagamaan, hingga pernikahan—dan kami berkomitmen untuk terus meningkatkan layanan melalui 
+                inovasi berkelanjutan serta keramahan khas Indonesia..
               </p>
             </div>
           </ScrollAnimation>
