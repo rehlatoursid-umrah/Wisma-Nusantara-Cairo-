@@ -7,9 +7,9 @@ import { SectionHeader } from "@/components/section-header"
 
 const team = [
   {
-    name: "Bapak Ahmad",
-    role: "Manajer Hotel",
-    image: "/professional-indonesian-man-portrait-formal.jpg",
+    name: "Muhammad Naufal Baharuddin, Lc.",
+    role: "Supervisor",
+    image: "/bng nofal.png",
   },
   {
     name: "Ibu Fatimah",
