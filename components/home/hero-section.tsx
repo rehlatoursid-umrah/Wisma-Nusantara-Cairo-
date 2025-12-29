@@ -12,7 +12,7 @@ export function HeroSection() {
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: `url/https://raw.githubusercontent.com/rehlatoursid-umrah/Wisma-Nusantara-Cairo-/refs/heads/main/public/Lobi%20lt%201-B.jpg`,
+            backgroundImage: `url("https://raw.githubusercontent.com/rehlatoursid-umrah/Wisma-Nusantara-Cairo-/refs/heads/main/public/Lobi%20lt%201-B.jpg")`,
           }}
         />
         <div className="absolute inset-0 bg-gradient-to-b from-accent/70 via-accent/50 to-accent/80" />
