@@ -12,7 +12,7 @@ export function SejarahSection() {
             <div className="relative">
               <div className="rounded-3xl overflow-hidden shadow-xl">
                 <Image
-                  src="/vintage-hotel-building-facade-with-egyptian-archit.jpg"
+                  src="/wisnus.png"
                   alt="Gedung Wisma Nusantara"
                   width={600}
                   height={500}
