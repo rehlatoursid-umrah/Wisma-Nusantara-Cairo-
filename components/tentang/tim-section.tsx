@@ -14,7 +14,7 @@ const team = [
   {
     name: "Usamah Abu Zaif Al Jundi, Lc.",
     role: "Board of Commissioners",
-    image: "/bng nofal.png",
+    image: "/bg usem.png",
   },
   {
     name: "Qolbi Zuhri Ali Murtadho,Lc.",
