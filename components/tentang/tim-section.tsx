@@ -36,6 +36,21 @@ const team = [
     role: "General Business development",
     image: "/hbib.png",
   },
+  {
+    name: "Muaz Widad Arsyad",
+    role: "General Business development",
+    image: "/wide.png",
+  },
+  {
+    name: "Ubaidillah Chair",
+    role: "Manager of General Facility & Maintenance",
+    image: "/ubet.png",
+  },
+  {
+    name: "Subhan Hadi Al Habsyi",
+    role: "General Facility & Maintenance",
+    image: "/sube.png",
+  },
 ]
 
 export function TimSection() {
