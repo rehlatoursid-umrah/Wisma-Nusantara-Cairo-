@@ -18,7 +18,7 @@ const rooms = [
   {
     name: "Double Room",
     price: 35,
-    image: "/spacious-double-hotel-room-with-elegant-indonesian.jpg",
+    image: "/101.jpg",
     features: ["1 Kasur Double", "AC", "Kamar Mandi Dalam"],
     available: 5,
   },
