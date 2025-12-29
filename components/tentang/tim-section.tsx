@@ -26,6 +26,16 @@ const team = [
     role: "General Secretary & Finance",
     image: "/obet.png",
   },
+  {
+    name: "Muhammad Iqbal",
+    role: "Manager of General Business development",
+    image: "/adudu.png",
+  },
+  {
+    name: "Habib Arifin Makhtum",
+    role: "General Business development",
+    image: "/hbib.png",
+  },
 ]
 
 export function TimSection() {
